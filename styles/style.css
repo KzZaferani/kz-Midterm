@@ -1,0 +1,136 @@
+@import url('./layout.css');
+@import url(<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Shalimar&family=Silkscreen&display=swap" rel="stylesheet">);
+
+
+
+/* MAIN NAVIGATION */
+body > nav ul{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(7, 125, 242);
+    align-items: center;
+  
+}
+
+body > nav li{
+    padding: 1em;
+    font-family: 'Roboto', sans-serif;
+}
+
+body > nav a{
+    text-decoration: none;
+    color: aqua;
+    padding: 2em;
+    border-radius: 25%;
+}
+
+nav ul li a > img{
+    height: 100px;
+}
+/* END MAIN NAVIGATION */
+
+
+
+
+
+
+
+/* MAIN */
+#main-option-1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    
+}
+div > main > article > footer{
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+    color: white;
+    padding: 20px;
+}
+
+article{
+    width: 200px;
+    padding: 2em;
+    border: 1px black solid;
+    margin: 5px;
+    
+}
+
+article img{
+    width: 100%;
+   
+}
+/* END MAIN */
+
+
+
+
+
+
+/* CONTENT */
+#content{
+    display: flex; 
+      
+}
+
+/* END CONTENT */
+
+
+
+
+
+
+/* ASIDE */
+aside h1{
+    font-size: 40px;
+    padding:1em;
+}
+
+#aside-option-2{
+    width: 30%;
+    border: 1px black solid;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#aside-footer img{
+    display: inline-block;   
+    width: 1.5em;
+    margin: 5px;
+    align-items:center;
+}
+aside ul{
+    padding: 10px;
+    
+}
+
+#aside-option-2 :nth-child(3){
+    border: 1px black solid;
+    background-color: gray;
+    color: white;
+}
+
+#aside-option-2 :nth-child(5){
+    border: 1px black solid;
+    background-color: gray;
+    color: white;
+}
+
+#aside-option-2 :nth-child(7){
+    border: 1px black solid;
+    background-color: gray;
+    color: white;
+}
+/* END ASIDE */
+
+
+
+
+
+
+
